@@ -2,11 +2,11 @@
 
 ![Open-Falcon](./logo.png)
 
-[![Build Status](https://travis-ci.org/open-falcon/falcon-plus.svg?branch=plus-dev)](https://travis-ci.org/open-falcon/falcon-plus)
-[![codecov](https://codecov.io/gh/open-falcon/falcon-plus/branch/plus-dev/graph/badge.svg)](https://codecov.io/gh/open-falcon/falcon-plus)
-[![GoDoc](https://godoc.org/github.com/open-falcon/falcon-plus?status.svg)](https://godoc.org/github.com/open-falcon/falcon-plus)
+[![Build Status](https://travis-ci.org/gaoquan6297/falcon-plus.svg?branch=plus-dev)](https://travis-ci.org/gaoquan6297/falcon-plus)
+[![codecov](https://codecov.io/gh/gaoquan6297/falcon-plus/branch/plus-dev/graph/badge.svg)](https://codecov.io/gh/gaoquan6297/falcon-plus)
+[![GoDoc](https://godoc.org/github.com/gaoquan6297/falcon-plus?status.svg)](https://godoc.org/github.com/gaoquan6297/falcon-plus)
 [![Code Issues](https://www.quantifiedcode.com/api/v1/project/5035c017b02c4a4a807ebc4e9f153e6f/badge.svg)](https://www.quantifiedcode.com/app/project/5035c017b02c4a4a807ebc4e9f153e6f)
-[![Go Report Card](https://goreportcard.com/badge/github.com/open-falcon/falcon-plus)](https://goreportcard.com/report/github.com/open-falcon/falcon-plus)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gaoquan6297/falcon-plus)](https://goreportcard.com/report/github.com/gaoquan6297/falcon-plus)
 [![License](https://img.shields.io/badge/LICENSE-Apache2.0-ff69b4.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 [![Backers on Open Collective](https://opencollective.com/falcon-plus/backers/badge.svg)](#backers) 
 [![Sponsors on Open Collective](https://opencollective.com/falcon-plus/sponsors/badge.svg)](#sponsors) 
@@ -25,7 +25,7 @@
 
 ## Docker
 
-Please refer to ./docker/[README.md](https://github.com/open-falcon/falcon-plus/blob/master/docker/README.md).
+Please refer to ./docker/[README.md](https://github.com/gaoquan6297/falcon-plus/blob/master/docker/README.md).
 
 ## Build from source
 **before start, please make sure you prepared this:**
@@ -46,14 +46,14 @@ And then
 
 mkdir -p $GOPATH/src/github.com/open-falcon
 cd $GOPATH/src/github.com/open-falcon
-git clone https://github.com/open-falcon/falcon-plus.git
+git clone https://github.com/gaoquan6297/falcon-plus.git
 
 ```
 
 **And do not forget to init the database first (if you have not loaded the database schema before)**
 
 ```
-cd $GOPATH/src/github.com/open-falcon/falcon-plus/scripts/mysql/db_schema/
+cd $GOPATH/src/github.com/gaoquan6297/falcon-plus/scripts/mysql/db_schema/
 mysql -h 127.0.0.1 -u root -p < 1_uic-db-schema.sql
 mysql -h 127.0.0.1 -u root -p < 2_portal-db-schema.sql
 mysql -h 127.0.0.1 -u root -p < 3_dashboard-db-schema.sql
@@ -68,7 +68,7 @@ mysql -h 127.0.0.1 -u root -p < 5_alarms-db-schema.sql
 # Compilation
 
 ```
-cd $GOPATH/src/github.com/open-falcon/falcon-plus/
+cd $GOPATH/src/github.com/gaoquan6297/falcon-plus/
 
 # make all modules
 make all
@@ -145,16 +145,16 @@ make clean all pack
 ```
 
 # API Standard
-- [API Standard](https://github.com/open-falcon/falcon-plus/blob/master/api-standard.md)
+- [API Standard](https://github.com/gaoquan6297/falcon-plus/blob/master/api-standard.md)
 
 
 # Q&A
 
-- Any issue or question is welcome, Please feel free to open [github issues](https://github.com/open-falcon/falcon-plus/issues) :)
+- Any issue or question is welcome, Please feel free to open [github issues](https://github.com/gaoquan6297/falcon-plus/issues) :)
 - [FAQ](http://book.open-falcon.org/zh_0_2/faq/)
 
 
 ## Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/open-falcon/falcon-plus/contributors"><img src="https://opencollective.com/falcon-plus/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/gaoquan6297/falcon-plus/contributors"><img src="https://opencollective.com/falcon-plus/contributors.svg?width=890&button=false" /></a>

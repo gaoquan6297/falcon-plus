@@ -24,10 +24,10 @@ import (
 	nsema "github.com/toolkits/concurrent/semaphore"
 	ntime "github.com/toolkits/time"
 
-	cmodel "github.com/open-falcon/falcon-plus/common/model"
-	cutils "github.com/open-falcon/falcon-plus/common/utils"
-	"github.com/open-falcon/falcon-plus/modules/graph/g"
-	proc "github.com/open-falcon/falcon-plus/modules/graph/proc"
+	cmodel "github.com/gaoquan6297/falcon-plus/common/model"
+	cutils "github.com/gaoquan6297/falcon-plus/common/utils"
+	"github.com/gaoquan6297/falcon-plus/modules/graph/g"
+	proc "github.com/gaoquan6297/falcon-plus/modules/graph/proc"
 )
 
 const (

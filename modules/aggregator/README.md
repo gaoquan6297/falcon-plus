@@ -7,7 +7,7 @@
 ```bash
 cd $GOPATH/src/github.com/open-falcon
 git clone https://github.com/open-falcon/sdk.git
-git clone https://github.com/open-falcon/falcon-plus.git
+git clone https://github.com/gaoquan6297/falcon-plus.git
 cd falcon-plus/modules/aggregator
 go get 
 ./control build

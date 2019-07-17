@@ -10,7 +10,7 @@ judge把报警event写入redis，alarm从redis读取event，做相应处理，�
 # set $GOPATH and $GOROOT
 mkdir -p $GOPATH/src/github.com/open-falcon
 cd $GOPATH/src/github.com/open-falcon
-git clone https://github.com/open-falcon/falcon-plus/modules/alarm.git
+git clone https://github.com/gaoquan6297/falcon-plus/modules/alarm.git
 cd alarm
 go get ./...
 ./control build

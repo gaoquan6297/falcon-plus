@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/open-falcon/falcon-plus/modules/graph/g"
-	"github.com/open-falcon/falcon-plus/modules/graph/rrdtool"
+	"github.com/gaoquan6297/falcon-plus/modules/graph/g"
+	"github.com/gaoquan6297/falcon-plus/modules/graph/rrdtool"
 )
 
 type Dto struct {

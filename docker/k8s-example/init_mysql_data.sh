@@ -2,7 +2,7 @@
 
 mysql_pod=$(kubectl get pods | grep mysql | awk '{print $1}')
 cd /tmp && \
-	git clone --depth=1 https://github.com/open-falcon/falcon-plus && \
+	git clone --depth=1 https://github.com/gaoquan6297/falcon-plus && \
 	cd /tmp/falcon-plus/ && \
 	for x in `ls ./scripts/mysql/db_schema/*.sql`; do
 	    echo init mysql table $x ...;

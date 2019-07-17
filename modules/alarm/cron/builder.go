@@ -16,10 +16,11 @@ package cron
 
 import (
 	"fmt"
+	"strings"
 
-	"github.com/open-falcon/falcon-plus/common/model"
-	"github.com/open-falcon/falcon-plus/common/utils"
-	"github.com/open-falcon/falcon-plus/modules/alarm/g"
+	"github.com/gaoquan6297/falcon-plus/common/model"
+	"github.com/gaoquan6297/falcon-plus/common/utils"
+	"github.com/gaoquan6297/falcon-plus/modules/alarm/g"
 )
 
 func BuildCommonSMSContent(event *model.Event) string {
@@ -41,10 +42,16 @@ func BuildCommonSMSContent(event *model.Event) string {
 }
 
 func BuildCommonIMContent(event *model.Event) string {
+	status := ""
+	if event.Status == "OK"{
+		status = strings.Join([]string{"<font color=#008000 size=6>","</font>"},event.Status)
+	} else{
+		status = strings.Join([]string{"<font color=#FF0000 size=6>","</font>"},event.Status)
+	}
 	return fmt.Sprintf(
-		"[P%d][%s][%s][][%s %s %s %s %s%s%s][O%d %s]",
+		"告警等级: P%d    \n 告警状态: %s    \n 告警主机: %s    \n 告警说明: %s    \n 告警指标: %s %s %s %s %s %s    \n 告警次数: %d    \n 告警时间: %s",
 		event.Priority(),
-		event.Status,
+		status,
 		event.Endpoint,
 		event.Note(),
 		event.Func(),

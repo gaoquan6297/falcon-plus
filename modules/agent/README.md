@@ -12,7 +12,7 @@ It is a golang classic project
 # set $GOPATH and $GOROOT
 mkdir -p $GOPATH/src/github.com/open-falcon
 cd $GOPATH/src/github.com/open-falcon
-git clone https://github.com/open-falcon/falcon-plus.git
+git clone https://github.com/gaoquan6297/falcon-plus.git
 cd falcon-plus/modules/agent
 go get
 ./control build

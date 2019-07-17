@@ -15,7 +15,7 @@
 package http
 
 import (
-	"github.com/open-falcon/falcon-plus/modules/agent/funcs"
+	"github.com/gaoquan6297/falcon-plus/modules/agent/funcs"
 	"net/http"
 )
 

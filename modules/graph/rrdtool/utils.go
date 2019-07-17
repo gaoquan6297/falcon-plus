@@ -17,7 +17,7 @@ package rrdtool
 import (
 	"strconv"
 
-	"github.com/open-falcon/falcon-plus/modules/graph/g"
+	"github.com/gaoquan6297/falcon-plus/modules/graph/g"
 )
 
 // getIndex

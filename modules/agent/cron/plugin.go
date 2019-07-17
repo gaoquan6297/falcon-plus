@@ -15,9 +15,9 @@
 package cron
 
 import (
-	"github.com/open-falcon/falcon-plus/common/model"
-	"github.com/open-falcon/falcon-plus/modules/agent/g"
-	"github.com/open-falcon/falcon-plus/modules/agent/plugins"
+	"github.com/gaoquan6297/falcon-plus/common/model"
+	"github.com/gaoquan6297/falcon-plus/modules/agent/g"
+	"github.com/gaoquan6297/falcon-plus/modules/agent/plugins"
 	"github.com/toolkits/file"
 	"log"
 	"os"

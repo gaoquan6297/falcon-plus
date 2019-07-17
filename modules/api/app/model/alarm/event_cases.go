@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/open-falcon/falcon-plus/modules/api/config"
+	"github.com/gaoquan6297/falcon-plus/modules/api/config"
 )
 
 // +----------------+------------------+------+-----+-------------------+-----------------------------+

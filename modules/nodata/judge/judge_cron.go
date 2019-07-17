@@ -18,15 +18,15 @@ import (
 	"log"
 	"time"
 
-	cmodel "github.com/open-falcon/falcon-plus/common/model"
-	cutils "github.com/open-falcon/falcon-plus/common/utils"
+	cmodel "github.com/gaoquan6297/falcon-plus/common/model"
+	cutils "github.com/gaoquan6297/falcon-plus/common/utils"
 	tcron "github.com/toolkits/cron"
 	ttime "github.com/toolkits/time"
 
-	"github.com/open-falcon/falcon-plus/modules/nodata/collector"
-	"github.com/open-falcon/falcon-plus/modules/nodata/config"
-	"github.com/open-falcon/falcon-plus/modules/nodata/g"
-	"github.com/open-falcon/falcon-plus/modules/nodata/sender"
+	"github.com/gaoquan6297/falcon-plus/modules/nodata/collector"
+	"github.com/gaoquan6297/falcon-plus/modules/nodata/config"
+	"github.com/gaoquan6297/falcon-plus/modules/nodata/g"
+	"github.com/gaoquan6297/falcon-plus/modules/nodata/sender"
 )
 
 var (

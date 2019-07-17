@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
-	h "github.com/open-falcon/falcon-plus/modules/api/app/helper"
-	alm "github.com/open-falcon/falcon-plus/modules/api/app/model/alarm"
+	h "github.com/gaoquan6297/falcon-plus/modules/api/app/helper"
+	alm "github.com/gaoquan6297/falcon-plus/modules/api/app/model/alarm"
 	"time"
 )
 
