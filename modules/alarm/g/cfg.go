@@ -63,6 +63,13 @@ type HousekeeperConfig struct {
 	EventDeleteBatch   int `json:"event_delete_batch"`
 }
 
+type CallConfig struct {
+	AccountSid      string `json:"accountSid"`
+	AccountToken    string `json:"accountToken"`
+	AppId           string `json:"appId"`
+	MediaText       string `json:"mediaText"`
+}
+
 type GlobalConfig struct {
 	LogLevel     string              `json:"log_level"`
 	FalconPortal *FalconPortalConfig `json:"falcon_portal"`
@@ -71,6 +78,7 @@ type GlobalConfig struct {
 	Api          *ApiConfig          `json:"api"`
 	Worker       *WorkerConfig       `json:"worker"`
 	Housekeeper  *HousekeeperConfig  `json:"Housekeeper"`
+	Call         *CallConfig         `json:"call"`
 }
 
 var (
