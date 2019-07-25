@@ -17,7 +17,7 @@ package api
 import (
 	"encoding/json"
 	"fmt"
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gaoquan6297/falcon-plus/modules/alarm/g"
 	"github.com/gaoquan6297/falcon-plus/modules/api/app/model/uic"
 	"github.com/toolkits/container/set"

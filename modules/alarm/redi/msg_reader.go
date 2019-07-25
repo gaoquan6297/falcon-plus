@@ -16,7 +16,7 @@ package redi
 
 import (
 	"encoding/json"
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/garyburd/redigo/redis"
 	"github.com/gaoquan6297/falcon-plus/modules/alarm/g"
 	"github.com/gaoquan6297/falcon-plus/modules/alarm/model"

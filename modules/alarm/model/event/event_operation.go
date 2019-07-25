@@ -20,7 +20,7 @@ import (
 
 	"database/sql"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/astaxie/beego/orm"
 	coommonModel "github.com/gaoquan6297/falcon-plus/common/model"
 	"github.com/gaoquan6297/falcon-plus/common/utils"

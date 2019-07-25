@@ -15,7 +15,7 @@
 package cron
 
 import (
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gaoquan6297/falcon-plus/modules/alarm/g"
 	"github.com/gaoquan6297/falcon-plus/modules/alarm/model"
 	"github.com/gaoquan6297/falcon-plus/modules/alarm/redi"

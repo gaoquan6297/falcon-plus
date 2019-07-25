@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 
 	backend "github.com/gaoquan6297/falcon-plus/common/backend_pool"
 	cmodel "github.com/gaoquan6297/falcon-plus/common/model"

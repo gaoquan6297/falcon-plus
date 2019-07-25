@@ -18,7 +18,7 @@ import (
 	"regexp"
 	"strings"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/emirpasic/gods/maps/hashmap"
 	"github.com/gin-gonic/gin"
 	cmodel "github.com/gaoquan6297/falcon-plus/common/model"

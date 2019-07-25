@@ -15,7 +15,7 @@
 package index
 
 import (
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 
 	cmodel "github.com/gaoquan6297/falcon-plus/common/model"
 	"github.com/gaoquan6297/falcon-plus/modules/graph/g"

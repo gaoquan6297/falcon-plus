@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
 	h "github.com/gaoquan6297/falcon-plus/modules/api/app/helper"
 	"github.com/gaoquan6297/falcon-plus/modules/api/app/model/uic"

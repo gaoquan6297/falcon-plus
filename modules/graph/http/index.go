@@ -15,7 +15,7 @@
 package http
 
 import (
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
 	cutils "github.com/gaoquan6297/falcon-plus/common/utils"
 	"github.com/gaoquan6297/falcon-plus/modules/graph/index"

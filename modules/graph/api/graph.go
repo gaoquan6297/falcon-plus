@@ -19,7 +19,7 @@ import (
 	"math"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 
 	pfc "github.com/niean/goperfcounter"
 	cmodel "github.com/gaoquan6297/falcon-plus/common/model"

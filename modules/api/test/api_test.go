@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/masato25/resty"
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/spf13/viper"

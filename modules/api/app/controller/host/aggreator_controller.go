@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strconv"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	h "github.com/gaoquan6297/falcon-plus/modules/api/app/helper"

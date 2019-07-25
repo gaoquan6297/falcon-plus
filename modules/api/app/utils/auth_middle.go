@@ -17,7 +17,7 @@ package utils
 import (
 	"net/http"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
 	h "github.com/gaoquan6297/falcon-plus/modules/api/app/helper"
 	"github.com/spf13/viper"

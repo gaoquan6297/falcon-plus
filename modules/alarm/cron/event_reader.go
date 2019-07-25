@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/garyburd/redigo/redis"
 	cmodel "github.com/gaoquan6297/falcon-plus/common/model"
 	"github.com/gaoquan6297/falcon-plus/modules/alarm/g"

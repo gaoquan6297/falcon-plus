@@ -19,7 +19,7 @@ import (
 
 	"encoding/json"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gaoquan6297/falcon-plus/modules/api/app/model/uic"

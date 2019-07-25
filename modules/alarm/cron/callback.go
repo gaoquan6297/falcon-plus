@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/gaoquan6297/falcon-plus/common/model"
 	"github.com/gaoquan6297/falcon-plus/common/utils"
